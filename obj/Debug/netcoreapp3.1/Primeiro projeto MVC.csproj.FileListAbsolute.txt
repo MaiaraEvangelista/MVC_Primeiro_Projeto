@@ -1,0 +1,13 @@
+/home/maiara/Área de Trabalho/Projetos backend MVC/Primeiro projeto MVC/bin/Debug/netcoreapp3.1/Primeiro projeto MVC
+/home/maiara/Área de Trabalho/Projetos backend MVC/Primeiro projeto MVC/bin/Debug/netcoreapp3.1/Primeiro projeto MVC.deps.json
+/home/maiara/Área de Trabalho/Projetos backend MVC/Primeiro projeto MVC/bin/Debug/netcoreapp3.1/Primeiro projeto MVC.runtimeconfig.json
+/home/maiara/Área de Trabalho/Projetos backend MVC/Primeiro projeto MVC/bin/Debug/netcoreapp3.1/Primeiro projeto MVC.runtimeconfig.dev.json
+/home/maiara/Área de Trabalho/Projetos backend MVC/Primeiro projeto MVC/bin/Debug/netcoreapp3.1/Primeiro projeto MVC.dll
+/home/maiara/Área de Trabalho/Projetos backend MVC/Primeiro projeto MVC/bin/Debug/netcoreapp3.1/Primeiro projeto MVC.pdb
+/home/maiara/Área de Trabalho/Projetos backend MVC/Primeiro projeto MVC/obj/Debug/netcoreapp3.1/Primeiro projeto MVC.csprojAssemblyReference.cache
+/home/maiara/Área de Trabalho/Projetos backend MVC/Primeiro projeto MVC/obj/Debug/netcoreapp3.1/Primeiro projeto MVC.AssemblyInfoInputs.cache
+/home/maiara/Área de Trabalho/Projetos backend MVC/Primeiro projeto MVC/obj/Debug/netcoreapp3.1/Primeiro projeto MVC.AssemblyInfo.cs
+/home/maiara/Área de Trabalho/Projetos backend MVC/Primeiro projeto MVC/obj/Debug/netcoreapp3.1/Primeiro projeto MVC.csproj.CoreCompileInputs.cache
+/home/maiara/Área de Trabalho/Projetos backend MVC/Primeiro projeto MVC/obj/Debug/netcoreapp3.1/Primeiro projeto MVC.dll
+/home/maiara/Área de Trabalho/Projetos backend MVC/Primeiro projeto MVC/obj/Debug/netcoreapp3.1/Primeiro projeto MVC.pdb
+/home/maiara/Área de Trabalho/Projetos backend MVC/Primeiro projeto MVC/obj/Debug/netcoreapp3.1/Primeiro projeto MVC.genruntimeconfig.cache
