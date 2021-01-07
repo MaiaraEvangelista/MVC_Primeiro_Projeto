@@ -12,6 +12,7 @@ namespace Primeiro_projeto_MVC.Views
                 Console.WriteLine($"Código: {item.Codigo}");
                 Console.WriteLine($"Nome: {item.Nome}");
                 Console.WriteLine($"Preço: {item.Preco}");
+                 Console.WriteLine();
                    
             }
         }
