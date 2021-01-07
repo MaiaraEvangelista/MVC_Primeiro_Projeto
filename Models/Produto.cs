@@ -16,7 +16,7 @@ namespace Primeiro_projeto_MVC.Models
 
         public Produto(){
             //Verificação de existência da pasta
-            string pasta = PATH.Split("/")[0];
+             string pasta = PATH.Split("/")[0];
                 if (!Directory.Exists(pasta))
                 {
                     Directory.CreateDirectory(pasta);
@@ -32,21 +32,24 @@ namespace Primeiro_projeto_MVC.Models
         public List<Produto> Ler(){
 
             List<Produto> produtos = new List<Produto>();
+
             string[] linhas = File.ReadAllLines(PATH);
 
             foreach (string item in linhas)
             {
                 string[] atributos = item.Split(";");
+
+                Produto prod = new Produto();
+                prod.Codigo = int.Parse( atributos [0] );
+                prod.Nome = atributos [1];
+                prod.Preco = float.Parse( atributos [2] );
+
+                 produtos.Add(prod);                
             }
-
-            Produto prod = new Produto();
-            prod.Codigo = int.Parse( atributos [0] );
-            prod.Nome = atributos [1];
-            prod.Preco = float.Parse( atributos [2] );
-
-            produtos.Add(prod);
         
             return produtos;
         }
+
+
     }
 }
