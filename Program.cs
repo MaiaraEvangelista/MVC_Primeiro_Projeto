@@ -9,9 +9,13 @@ namespace Primeiro_projeto_MVC
         static void Main(string[] args)
         {
             Console.Clear();
-            
+
             ProdutoControllers prod = new ProdutoControllers();
+            prod.Cadastrar();
+            Console.WriteLine();
             prod.ListarProdutos();
+            Console.WriteLine();
+            
         }
     }
 }

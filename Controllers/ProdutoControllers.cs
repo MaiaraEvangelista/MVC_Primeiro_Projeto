@@ -10,14 +10,17 @@ namespace Primeiro_projeto_MVC.Controllers
         Produto produto =  new Produto();
 
         //Views
-        ProdutoView ProdutoView = new ProdutoView();
+        ProdutoView produtoView = new ProdutoView();
 
         public void ListarProdutos(){
 
             List<Produto> produtos = produto.Ler();
 
-            ProdutoView.Listagem(produtos);
+            produtoView.Listagem(produtos);
         }
-        
+
+            public void Cadastrar(){
+                produto.Inserir(produtoView.CadastrarProduto());
+            }
     }
 }

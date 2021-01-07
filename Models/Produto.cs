@@ -49,7 +49,18 @@ namespace Primeiro_projeto_MVC.Models
         
             return produtos;
         }
+            public void Inserir(Produto produto){
+                //Método para criar linhas 
+                string[] linhas = {PrepararLinhasCSV(produto)};
 
+                //Método que insere as linhas no programa
+                File.AppendAllLines(PATH, linhas);
+            }
+
+
+            public string PrepararLinhasCSV(Produto prod){
+                return $"{prod.Codigo};{prod.Nome};{prod.Preco}";
+            }
 
     }
 }
